@@ -67,6 +67,59 @@
         opacity: 0.85;
     }
 
+    h1 {
+        text-align: center;
+        padding-top: 109px;
+    }
+
+    main {
+        text-align: center;
+    }
+
+    #gap {
+        color:transparent;
+        width:50px;
+        height: 50px;
+    }
+
+    #form {
+        display: flex;
+        align-self: center;
+        align-items: center;
+        justify-content: center;
+        justify-self: center;
+        justify-items: center;
+        flex-wrap: wrap;
+        width: 100%
+        padding: 5px 8px 0 16px;
+        padding-left: 14px;
+    }
+
+    #form input {
+        background-color: transparent;
+        border: 1px solid #dfe1e5;
+        margin: 0;
+        padding: 0;
+        color: rgba(0,0,0,.87);
+        word-wrap: break-word;
+        outline: none;
+        display: flex;
+        flex: 100%;
+        margin-top: -37px;
+        font-size: 16px;
+        font-family: arial,sans-serif;
+        line-height: 34px;
+        height: 34px !important;
+        border-radius: 24px;
+    }
+    #form img {
+        width: 20px;
+        height: 20px;
+        margin-right: 520px;
+        margin-bottom: 8px;
+        display: flex;
+        opacity: 0.50;
+    }
 </style>
 
 <html>
@@ -77,6 +130,7 @@
         </title>
     </head>
 
+    
     <nav id="top-nav-bar">
         <ol>
             <li id="signin">
@@ -110,11 +164,16 @@
             <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google Logo">
         </h1>
 
+        <div id="gap">
+            hello
+        </div>
+
         <main>
 
-            <form> 
+            <div id="form"> 
+                <img src="https://cdn1.iconfinder.com/data/icons/menu-3-3/32/google_search_glass-512.png" alt="Magnifing Glass">
                 <input type=text required>
-            </form>
+            </div>
 
             <div id="search-buttons">
                 <button>
