@@ -150,6 +150,88 @@
         border: 1px solid #c6c6c6;
         color: #222;
     }
+
+    #news {
+        font-size: small;
+    }
+
+    #languages {
+        display: inline-block;
+    }
+
+    #languages p {
+        display: block;
+    }
+    #languages ol {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    #languages ol li {
+        float: inline-start;
+    }
+
+    #languages ol li a {
+        display: block;
+        text-align: center;
+        padding: 0px 6px;
+        text-decoration: none;
+    }
+
+    #languages ol li a:hover {
+        text-decoration: underline;
+    }
+
+    footer {
+        background-color: #f2f2f2;
+        margin-left: -27px;
+        font-size: 13px;
+        line-height: 40px;
+        padding-left: 27px;
+        text-align: left;
+        border-top: 1px solid #e4e4e4;
+        border-bottom: 1px solid #e4e4e4;
+        font-family: arial,sans-serif;
+        color: #5f6368;
+
+    }
+
+    #bottom-nav-bar {
+        background-color: #f2f2f2;
+        margin-left: -33px;
+        font-size: 13px;
+        line-height: 40px;
+        padding-left: 27px;
+        text-align: left;
+        border-top: 1px solid #e4e4e4;
+        border-bottom: 1px solid #e4e4e4;
+        
+    }
+
+    #bottom-nav-bar ol  {
+        display: inline;
+        list-style-type: none;
+    }
+
+    #bottom-nav-bar ol li {
+        float: left;
+    }
+
+    #bottom-nav-bar ol li a {
+        font-family: arial, sans-serif;
+        display: inline-block;
+        color: #5f6368;
+        text-align: center;
+        padding: 0px 6px;
+        text-decoration: none;
+        font-size: 13px;
+    }
+
+    #bottom-nav-bar ol li a:hover {
+        text-decoration: underline;
+    }
 </style>
 
 <html>
@@ -216,26 +298,35 @@
             </div>
 
             <div id="news">
-                <a href="https://about.google/intl/ALL_sg/stories/tensorflow-ai-japanese-culture/?utm_source=google&utm_medium=hpp&utm_campaign=Singapore">
+                <a href="https://about.google/intl/ALL_sg/stories/tensorflow-ai-japanese-culture/?utm_source=google&utm_medium=hpp&utm_campaign=Singapore" style="text-decoration: none;">
                     See how machine learning is bringing Japanese scripts to life: Search On
                 </a>
             </div>
 
             <div id="languages">
                 <p>
-                    Google offered in: 
-                    <a href="">
-                        中文(简体) 
-                    </a>
-
-                    <a href="">
-                        Melayu
-                    </a>
-
-                    <a href="">
-                        தமிழ்
-                    </a>
+                    Google offered in:
                 </p>
+
+                <ol>
+                     <li>
+                        <a href="">
+                            中文(简体) 
+                        </a>
+                    </li>
+                        
+                    <li>
+                        <a href="">
+                            Melayu
+                        </a>
+                    </li>
+    
+                     <li>
+                        <a href="">
+                             தமிழ்
+                        </a>
+                    </li>  
+                </ol>
             </div>
 
         </main>
@@ -271,21 +362,21 @@
                 </a>
             </li>
 
-            <li>
+            <li style="float:right">
                 <a href="">
-                    Privacy
+                    Settings
                 </a>
             </li>
 
-            <li>
+            <li style="float:right">
                 <a href="">
                     Terms
                 </a>
             </li>
 
-            <li>
+            <li style="float:right">
                 <a href="">
-                    Settings
+                    Privacy
                 </a>
             </li>
         </ol>
